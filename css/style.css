@@ -26,7 +26,7 @@ p {
 }
 
 /* START PARALLAX /*/
-.parallax {
+.about {
   background: url("img/dorms.jpg") repeat fixed 100%;
   background-size: cover;
 }
@@ -36,17 +36,22 @@ p {
   padding-bottom: 10%;
 }
 
-.parallax1 {
+.head {
   background: url("img/dininghouse.jpg") repeat fixed 100%;
   background-size: cover;
 }
 
-.parallax2 {
+.home {
   background: url("img/turtle.jpg") repeat fixed 100%;
   background-size: cover;
 }
 
-.parallax3 {
+.other {
+  background: url("img/margo.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+.contact {
   background: url("img/margo.jpg") repeat fixed 100%;
   background-size: cover;
 }
