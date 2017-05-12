@@ -22,7 +22,7 @@ h2 {
   text-align: center;
   color: #000000;
   letter-spacing: 1%;
-  margin: 45% 0;
+  margin: 35% 0;
   background-color: #FFFFFF;
   opacity: .7;
 }
@@ -30,9 +30,8 @@ h2 {
 p {
   font-family: 'Ranga', cursive;
   text-align: center;
-  font-size: 100%;
+  font-size: 150%;
   color: #000000;
-  text-transform: uppercase;
   letter-spacing: 1%;
   background-color: #FFFFFF;
   opacity: .7;
@@ -47,6 +46,16 @@ p {
 .parallax-inner {
   padding-top: 10%;
   padding-bottom: 10%;
+}
+
+.survey {
+  font-family: 'Ranga', cursive;
+  font-size: 300%
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #FFFFFF;
+  opacity: .7;
 }
 
 .head {
@@ -67,6 +76,7 @@ p {
 
 /* Parallax Navigation /*/
 nav.page-navigation {
+    font-family: 'Ranga', cursive;
     align-items: center;
     width: 50px;
     background-color: #FFFFFF;
@@ -84,8 +94,8 @@ nav.page-navigation a {
 /* End Parallax Navigation /*/
 
 div.dropdown {
-  font-family: 'Titillium Web', sans-serif;
-   display: inline-block;
+  font-size: 300%;
+  font-family: 'Ranga', cursive;
    z-index: 5;
    background-color: #FFFFFF;
    opacity: .7;
