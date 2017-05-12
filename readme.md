@@ -12,3 +12,7 @@
 <li>To my surprise, linking the parts of my parallax site was really easy.  Dealing with parallax kind of intimidates me but this was actually no problem at all.  I looked for some sample code on Google and found <a href = "http://www.turnwall.com/articles/adding-single-page-scrolling-navigation-to-your-site/">this.</a> Once I gave ids to the separate sections of the page it was no problem.</li>
 
 <li>One problem I had was with my map, which was showing up at a low opacity just like its background. This, like many problems I have had in this class, was the result of a tiny mistake, in this case a misplaced tag.</li>
+
+<li> I'm having a serious problem right now with Sourcetree not allowing me to push anything to Github.  I have no clue why.  I keep getting this message: Pushing to https://github.com/egriffin2/341-final.git
+POST git-receive-pack (chunked) <br>
+This has never happened before and I have no idea why I can't push anything.  I am editing this on Github itself because nothing will go through.<li>
