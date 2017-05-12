@@ -3,47 +3,91 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Week 11</title>
+    <title>Final</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Ranga" rel="stylesheet">
 </head>
 <body>
   <section class = "head">
-    <div class = "parallax-inner">
+    <div class = "parallax-inner" id = "head">
       <h1>Pacuare Nature Reserve</h1>
     </div>
-  </section>
-
-  <section class = "home">
-    <div class = "parallax-inner">
-      <p>Leatherback sea turtles are endangered, and one of Pacuare's focuses is to aid in conservation
-        efforts for these animals.  Leatherbacks are huge, weighing somewhere between 550 and 1500 lbs
-        and growing to be anywhere from 6 - 7.2 feet in length as adults.</p>
-    </div>
+    <nav class="site-navigation page-navigation">
+      <ul class="menu">
+        <li><a href="#head">Top</a></li>
+        <li><a href="#about">One</a></li>
+        <li><a href="#other">Two</a></li>
+        <li><a href="#contact">Three</a></li>
+      </ul>
+    </nav>
   </section>
 
   <section class = "about">
-    <div class = "parallax-inner">
+    <div class = "parallax-inner" id = "about">
       <p>Pacuare Nature Reserve is a 2500 acre area of tropical rainforest on the Caribbean coast of Costa Rica.
         The reserve was estabilshed by the Endangered Wildlife Trust in 1989 and in 2016 was gifted to Ecology Project International.
-        It is also the location of important nesting sites for leatherback sea turtles.</p>
+        It is also the location of important nesting sites for leatherback sea turtles.
+        Leatherback sea turtles are endangered, and one of Pacuare's focuses is to aid in conservation
+        efforts for these animals. Leatherbacks are huge, weighing somewhere between 550 and 1500 lbs
+        and growing to be anywhere from 6 - 7.2 feet in length as adults.<br>
+        Pacuare is open to volunteers who want to take part in the everyday activity of the reserve.
+        Volunteers accompany research assistants on nightly patrols to look for nesting mothers and
+        hatching nests, as well as taking part in recycling, maintenance, composting, and reforestation.<br></p>
     </div>
   </section>
 
   <section class = "other">
-    <div class = "parallax-inner">
-      <p>Pacuare is open to volunteers who want to take part in the everyday activity of the reserve.
-          Volunteers accompany research assistants on nightly patrols to look for nesting mothers and
-          hatching nests, as well as taking part in recycling, maintenance, composting, and reforestation.</p>
+    <div class = "parallax-inner" id = "other">
+      <h2>Want to Know More?</h2>
+      <p><div class="dropdown">
+        <align: center>
+        <a href="#">How can you get involved?</a>
+        <div class="menu">
+            <div class="item">
+                <a href="http://www.pacuarereserve.org/the-reserve/volunteering/">Volunteering</a></div>
+            <div class="item">
+                <a href="http://www.pacuarereserve.org/the-reserve/getting-there-prices/">Travel</a></div>
+                <div class="item">
+                    <a href="http://www.pacuarereserve.org/get-involved/support-us/">Support</a></div>
+        </div>
     </div>
+    <h2>Have an Experience to Share?</h2>
+      <div>
+          <label>Did you stay at the reserve when you visited?</label>
+          <input type="radio" name="Y/N" value="Yes"> Yes
+          <input type="radio" name="Y/N" value="No"> No <br>
+      </div>
+      <div id = "question1">
+        <br><label>Which activities did you participate in?</label>
+          <br><br>
+          <input type="radio" name="10" value="Y/N"> Recycling
+          <input type="radio" name="9" value="Y/N"> Maintenance
+          <input type="radio" name="8" value="Y/N"> Composting
+          <input type="radio" name="7" value="Y/N"> Reforestation
+          <input type="radio" name="6" value="Y/N"> Reforestatio
+          <input type="radio" name="5" value="Y/N"> Research Assistance
+      </div>
+      <div id = "question2">
+          <br><label>On a scale of 1 - 5 (5 being the best) how would you rate this experience?</label>
+            <select name = "How Long?">
+                <option value = "option">5</option>
+                <option value = "option">4</option>
+                <option value = "option">3</option>
+                <option value = "option">2</option>
+                <option value = "option">1</option>
+            </select><br>
+        </div>
   </section>
 
   <section class = "contact">
-    <div class = "parallax-inner">
-      <p>Pacuare is open to volunteers who want to take part in the everyday activity of the reserve.
-          Volunteers accompany research assistants on nightly patrols to look for nesting mothers and
-          hatching nests, as well as taking part in recycling, maintenance, composting, and reforestation.</p>
+    <div class = "parallax-inner" id = "contact">
+      <h2>For More Information, please visit the <i>real</i> website for <a href = "http://www.pacuarereserve.org/">Pacuare Nature Reserve</a> or
+        <a href="mailto:emily1.griffin@umontana.edu">email us.</a></h2>
+        <p>Or, you can come visit us, if you're willing to take a short boat ride.</p>
+        <div class = "map" id = "map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.158664849497!2d-83.23672628520444!3d10.167755492736283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa7156a00026323%3A0xda4eaf34151c1f92!2sPACUARE+NATURE+RESERVE!5e0!3m2!1sen!2sus!4v1494521194532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </optgroup></div>
     </div>
   </section>
 

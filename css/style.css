@@ -8,21 +8,34 @@ h1 {
   font-family: 'Ranga', cursive;
   font-family: 'Eagle Lake', cursive;
   text-align: center;
-  font-size: 575%;
-  color: #E5E5E5;
+  font-size: 300%;
+  color: #000000;
   letter-spacing: 1%;
   margin: 45% 0;
+  background-color: #FFFFFF;
+  opacity: .7;
+}
+
+h2 {
+  font-family: 'Ranga', cursive;
+  font-family: 'Eagle Lake', cursive;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1%;
+  margin: 45% 0;
+  background-color: #FFFFFF;
+  opacity: .7;
 }
 
 p {
   font-family: 'Ranga', cursive;
   text-align: center;
-  font-size: 275%;
-  color: #E5E5E5;
+  font-size: 100%;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 1%;
-  background-color: #003B;
-  background-blend-mode: soft-light;
+  background-color: #FFFFFF;
+  opacity: .7;
 }
 
 /* START PARALLAX /*/
@@ -41,13 +54,8 @@ p {
   background-size: cover;
 }
 
-.home {
-  background: url("img/turtle.jpg") repeat fixed 100%;
-  background-size: cover;
-}
-
 .other {
-  background: url("img/margo.jpg") repeat fixed 100%;
+  background: url("img/leatherback.jpeg") repeat fixed 100%;
   background-size: cover;
 }
 
@@ -56,3 +64,45 @@ p {
   background-size: cover;
 }
 /* END PARALLAX /*/
+
+/* Parallax Navigation /*/
+nav.page-navigation {
+    align-items: center;
+    width: 50px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top:10%;
+    left:0;
+}
+nav.page-navigation li {
+    width: 100%;
+}
+nav.page-navigation a {
+    padding: 0.6em 10%;
+    width: 80%;
+}
+/* End Parallax Navigation /*/
+
+div.dropdown {
+  font-family: 'Titillium Web', sans-serif;
+   display: inline-block;
+   z-index: 5;
+   background-color: #FFFFFF;
+   opacity: .7;
+}
+
+div.item {
+  display: none;
+  padding: 3;
+  background-color: #FFFFFF;
+  opacity: .7;
+
+}
+
+.item a {
+
+}
+
+.dropdown:hover .item {
+    display: block;
+}
